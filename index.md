@@ -281,7 +281,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to students enrolled at the Human Security Research Project Design Course, Spring 2024.
+    This workshop is open to MA students enrolled at the Human Security Research Project Design Course, Spring 2024.
 </p>
 
 
