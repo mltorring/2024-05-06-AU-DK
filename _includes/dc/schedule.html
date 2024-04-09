@@ -1,3 +1,4 @@
+
 {% comment %}
 This is the typical schedule for the Data Carpentry workshops.
 The schedule for the different curricula are listed here:
@@ -9,55 +10,27 @@ The schedule for the different curricula are listed here:
 - dc-geosptial
 {% endcomment %}
 
-{% if site.curriculum == "dc-astronomy" %}
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/astronomy-python/01-query.html/">Basic Queries</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/astronomy-python/02-coords.html">Coordinate Transformations</a></td></tr>
-      <tr><td>Afternoon</td> <td> <a href="https://datacarpentry.org/astronomy-python/03-transform.html">Plotting and Tabular Data</a></td></tr>
-      <tr><td> </td> <td> <a href="https://datacarpentry.org/astronomy-python/04-motion.html">Plotting and Pandas</a></td></tr>
-    </table>
-  </div>
-  <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr><td>Morning</td><td><a href="https://datacarpentry.org/astronomy-python/05-select.html">Transform and Select</a></td></tr>
-      <tr><td> </td> <td> <a href="https://datacarpentry.org/astronomy-python/06-join.html">Join</a></td></tr>
-      <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/astronomy-python/07-photo.html">Photometry</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/astronomy-python/08-plot.html">Visualization</a></td></tr>
-    </table>
-  </div>
-</div>
+{% if site.curriculum == "dc-socsci" %}
 
-{% elsif site.curriculum == "dc-image" %}
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Week 19</h3>
     <table class="table table-striped">
-      <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/image-processing/01-introduction.html">Introduction</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/image-processing/02-image-basics.html">Image Basics</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/image-processing/03-skimage-images.html">Working with skimage</a></td></tr>
-      <tr><td>Afternoon</td> <td> <a href="https://datacarpentry.org/image-processing/04-drawing.html">Drawing and Bitwise Operations</a></td></tr>
-      <tr><td> </td> <td> <a href="https://datacarpentry.org/image-processing/05-creating-histograms.html">Creating Histograms</a></td></tr>
-    </table>
+      <tr> 
+     	<td>Before starting</td>
+	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td></tr>
+	<tr> <td>Seminar</td>  <td>Intro to Data (catch-up from Week 18) </td> </tr>
+	<tr> <td>Workshop</td>  <td><a href="https://datacarpentry.org/spreadsheets-socialsci/">Data Organization in Spreadsheets</a></td> </tr>
+      	<tr> <td>Workshop</td>  <td><a href="https://datacarpentry.org/openrefine-socialsci/">OpenRefine for Data Cleaning</a></td> </tr>
+      </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Week 20</h3>
     <table class="table table-striped">
-      <tr><td>Morning</td><td><a href="https://datacarpentry.org/image-processing/06-blurring.html">Blurring Images</a></td></tr>
-      <tr><td> </td> <td> <a href="https://datacarpentry.org/image-processing/07-thresholding.html">Thresholding</a></td></tr>
-      <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/image-processing/08-connected-components.html">Connected Component Analysis</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/image-processing/09-challenges.html">Capstone Challenge</a></td></tr>
+      <tr> <td>Workshop</td>  <td><a href="https://datacarpentry.org/r-socialsci/">Introduction to R</a> </td> </tr>
+      <tr> <td>Workshop</td>  <td><a href="https://datacarpentry.org/r-socialsci/">Starting with data</a></td> </tr>
+      <tr> <td>Workshop</td>  <td><a href="https://datacarpentry.org/r-socialsci/">Data wrangling in tidyverse</a> </td> </tr>
+      <tr> <td>Before ending</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td> </tr>
     </table>
   </div>
 </div>
